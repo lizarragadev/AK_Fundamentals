@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_instagram_logo"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altoEditText"
+        android:hint="Username"
+        android:inputType="textCapWords"
+        android:layout_marginRight="@dimen/espaciado"
+        android:layout_marginLeft="@dimen/espaciado"
+        android:background="@drawable/editext_custom"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/textColorHint"
+        android:textColor="@color/colorBlanco"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altoEditText"
+        android:hint="Password"
+        android:inputType="textCapWords"
+        android:layout_marginRight="@dimen/espaciado"
+        android:layout_marginLeft="@dimen/espaciado"
+        android:background="@drawable/editext_custom"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/textColorHint"
+        android:textColor="@color/colorBlanco"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:layout_marginRight="@dimen/espaciado"
+        android:layout_marginLeft="@dimen/espaciado"
+        android:background="@drawable/boton"
+        android:textColor="@color/textColorHint"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot your login details? Get help signing in."
+        android:textColor="#FFF"
+        android:layout_marginRight="@dimen/espaciado"
+        android:layout_marginLeft="@dimen/espaciado"
+        android:gravity="center_horizontal"
+        android:textSize="10sp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textColor="#FFF"
+        android:gravity="center_horizontal"/>
+
+
+</LinearLayout>
