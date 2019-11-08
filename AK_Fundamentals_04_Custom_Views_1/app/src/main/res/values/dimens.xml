@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="altoimagen">70dp</dimen>
     <dimen name="espaciado">30dp</dimen>
     <dimen name="altoEditText">50dp</dimen>
+    <dimen name="margenabajo">20dp</dimen>
+    <dimen name="paddingedittext">20dp</dimen>
+    <dimen name="paddinglogo">10dp</dimen>
+    <dimen name="tamaniotexto">12sp</dimen>
+    <dimen name="tamaniotextosub">14sp</dimen>
+    <dimen name="tamaniologofb">20dp</dimen>
+    <dimen name="paddingfooter">25dp</dimen>
 </resources>

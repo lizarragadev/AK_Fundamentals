@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Custom 1</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="opcion">Forgot your login details? <b>Get help signing in.</b></string>
+    <string name="or">OR</string>
+    <string name="loginfb">Log in with Facebook</string>
+    <string name="signup">Don\'t have an account? <b>Sign up.</b></string>
 </resources>

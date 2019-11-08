@@ -1,12 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center_vertical">
+    android:background="#00BCD4">
 
 
 
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altoEditText"
+        android:layout_above="@id/password"
+        android:hint="@string/username"
+        android:inputType="textCapWords"
+        android:layout_marginRight="@dimen/espaciado"
+        android:layout_marginLeft="@dimen/espaciado"
+        android:layout_marginBottom="@dimen/margenabajo"
+        android:paddingLeft="@dimen/paddingedittext"
+        android:paddingRight="@dimen/paddingedittext"
+        android:textColorHint="@color/textColorHint"
+        android:textColor="@color/colorBlanco" />
 
-</LinearLayout>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altoEditText"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_marginRight="@dimen/espaciado"
+        android:layout_marginLeft="@dimen/espaciado"
+        android:paddingLeft="@dimen/paddingedittext"
+        android:paddingRight="@dimen/paddingedittext"
+        android:textColorHint="@color/textColorHint"
+        android:textColor="@color/colorBlanco"
+        android:layout_marginBottom="@dimen/margenabajo"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_marginRight="@dimen/espaciado"
+        android:layout_marginLeft="@dimen/espaciado"
+        android:textColor="@color/colorDivider"
+        android:layout_marginBottom="@dimen/margenabajo"
+        android:layout_below="@id/password"/>
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/opcion"
+        android:textColor="@color/colorBlanco"
+        android:layout_marginRight="@dimen/espaciado"
+        android:layout_marginLeft="@dimen/espaciado"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/tamaniotexto"
+        android:layout_marginBottom="@dimen/margenabajo"
+        android:layout_below="@id/login"/>
+
+    <LinearLayout
+        android:id="@+id/or"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/espaciado"
+        android:layout_marginLeft="@dimen/espaciado"
+        android:layout_marginBottom="@dimen/margenabajo"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_below="@id/texto">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0.3dp"
+            android:background="@color/colorDivider"
+            android:layout_weight="3"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/or"
+            android:textColor="@color/colorBlanco"
+            android:textSize="@dimen/tamaniotexto"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0.3dp"
+            android:background="@color/colorDivider"
+            android:layout_weight="3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_below="@id/or">
+        <ImageView
+            android:layout_width="@dimen/tamaniologofb"
+            android:layout_height="@dimen/tamaniologofb"
+            android:src="@drawable/ic_facebook"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loginfb"
+            android:textColor="@color/colorBlanco"
+            android:textSize="@dimen/tamaniotextosub"
+            android:textStyle="bold"
+            android:paddingLeft="@dimen/paddinglogo"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/paddingfooter"
+        android:textSize="@dimen/tamaniotextosub"
+        android:textColor="@color/colorBlanco"/>
+
+</RelativeLayout>
