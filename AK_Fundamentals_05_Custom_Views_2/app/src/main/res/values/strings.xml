@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Custom 2</string>
+
+    <string name="subtitle">Where videos and personalities get really big</string>
+    <string name="signup">Sign up</string>
+    <string name="login">Log in</string>
+    <string name="login_twitter">Log in with Twitter</string>
+    <string name="login_email">Log in with email</string>
+
+</resources>

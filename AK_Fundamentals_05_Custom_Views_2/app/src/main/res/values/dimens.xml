@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sizeSubtitle">23sp</dimen>
+    <dimen name="sizeOptions">17sp</dimen>
+    <dimen name="heightLogo">80dp</dimen>
+    <dimen name="marginSubtitle">40dp</dimen>
+    <dimen name="marginOptions">20dp</dimen>
+    <dimen name="dividerGrosor">3dp</dimen>
+    <dimen name="dividerWidthActive">110dp</dimen>
+    <dimen name="marginDividerMargin">40dp</dimen>
+    <dimen name="marginTopButton">40dp</dimen>
+    <dimen name="marginLeftRightButton">80dp</dimen>
+    <dimen name="paddingLeftIcon">30dp</dimen>
+    <dimen name="drawablePaddingIcon">10dp</dimen>
+</resources>
