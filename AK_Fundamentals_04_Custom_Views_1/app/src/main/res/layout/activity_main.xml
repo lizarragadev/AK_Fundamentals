@@ -3,9 +3,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00BCD4">
+    android:background="@drawable/degradado">
 
-
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/altoimagen"
+        android:src="@drawable/ic_instagram_logo"
+        android:layout_above="@id/username"
+        android:layout_marginBottom="@dimen/margenabajo"/>
 
     <EditText
         android:id="@+id/username"
@@ -20,7 +25,8 @@
         android:paddingLeft="@dimen/paddingedittext"
         android:paddingRight="@dimen/paddingedittext"
         android:textColorHint="@color/textColorHint"
-        android:textColor="@color/colorBlanco" />
+        android:textColor="@color/colorBlanco"
+        android:background="@drawable/edittext_fondo"/>
 
     <EditText
         android:id="@+id/password"
@@ -35,7 +41,8 @@
         android:textColorHint="@color/textColorHint"
         android:textColor="@color/colorBlanco"
         android:layout_marginBottom="@dimen/margenabajo"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"
+        android:background="@drawable/edittext_fondo"/>
     <Button
         android:id="@+id/login"
         android:layout_width="match_parent"
@@ -45,7 +52,9 @@
         android:layout_marginLeft="@dimen/espaciado"
         android:textColor="@color/colorDivider"
         android:layout_marginBottom="@dimen/margenabajo"
-        android:layout_below="@id/password"/>
+        android:layout_below="@id/password"
+        android:background="@drawable/boton"
+        android:textAllCaps="false"/>
 
     <TextView
         android:id="@+id/texto"
@@ -118,6 +127,7 @@
         android:gravity="center_horizontal"
         android:padding="@dimen/paddingfooter"
         android:textSize="@dimen/tamaniotextosub"
-        android:textColor="@color/colorBlanco"/>
+        android:textColor="@color/colorBlanco"
+        android:background="@drawable/abajo"/>
 
 </RelativeLayout>
