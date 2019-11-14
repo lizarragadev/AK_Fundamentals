@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="anchoNums">80dp</dimen>
+    <dimen name="altoNums">110dp</dimen>
+    <dimen name="altoNumsBottom">125dp</dimen>
+    <dimen name="anchoOperad">90dp</dimen>
+    <dimen name="tamanioTextoNums">30sp</dimen>
+    <dimen name="tamanioTextoOperad">25sp</dimen>
+    <dimen name="tamanioTextoPreview">50sp</dimen>
+    <dimen name="tamanioTextoResultado">35sp</dimen>
+</resources>
