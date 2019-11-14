@@ -4,12 +4,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1.3"
-        android:background="#000">
+        android:layout_weight="1.3">
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/screenshot"
+            android:scaleType="centerCrop"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBlack"
+            android:alpha="0.8"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -34,11 +45,12 @@
                 android:layout_marginTop="@dimen/marginOptions"/>
         </LinearLayout>
     </RelativeLayout>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#FFF">
+        android:background="@color/colorBlack">
         <LinearLayout
             android:id="@+id/options"
             android:layout_width="match_parent"
@@ -91,7 +103,13 @@
             android:layout_marginTop="@dimen/marginTopButton"
             android:layout_marginRight="@dimen/marginLeftRightButton"
             android:layout_marginLeft="@dimen/marginLeftRightButton"
-            />
+            android:background="@drawable/boton_twitter"
+            android:drawableLeft="@drawable/ic_twitter"
+            android:paddingLeft="@dimen/paddingLeftIcon"
+            android:gravity="center_vertical|left"
+            android:drawablePadding="@dimen/drawablePaddingIcon"
+            android:textAllCaps="false"/>
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -101,6 +119,8 @@
             android:layout_marginTop="@dimen/marginOptions"
             android:layout_marginRight="@dimen/marginLeftRightButton"
             android:layout_marginLeft="@dimen/marginLeftRightButton"
-            />
+            android:background="@drawable/boton_email"
+            android:textAllCaps="false"/>
     </RelativeLayout>
+
 </LinearLayout>
