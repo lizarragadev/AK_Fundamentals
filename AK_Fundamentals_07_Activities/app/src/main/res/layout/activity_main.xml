@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/btnIrAUno"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Ir Activity Uno"
+        android:background="@drawable/fondo_boton"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:padding="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnIrADos"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Ir Activity Dos"
+            android:background="@drawable/fondo_boton"
+            android:layout_marginRight="5dp"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:padding="15dp"/>
+        <Button
+            android:id="@+id/btnIrATres"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Ir Activity Tres"
+            android:background="@drawable/fondo_boton"
+            android:layout_marginLeft="5dp"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:padding="15dp"/>
+    </LinearLayout>
+
+</LinearLayout>
