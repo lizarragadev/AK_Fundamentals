@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Intents Explícitos"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ibAbrirActivity"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_arrow"
+                    android:tint="@color/colorAccent"
+                    android:padding="20dp"/>
+
+                <ImageButton
+                    android:id="@+id/ibEnviarDatos"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_send_data"
+                    android:tint="@color/colorAccent"
+                    android:padding="20dp"/>
+
+                <ImageButton
+                    android:id="@+id/ibDevolverDatos"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_return"
+                    android:tint="@color/colorAccent"
+                    android:padding="20dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="Intents Implícitos"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/ibAbrirMarcado"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_dialpad"
+                        android:tint="@color/colorAccent"
+                        android:padding="20dp"/>
+
+                    <ImageButton
+                        android:id="@+id/ibLlamar"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_call"
+                        android:tint="@color/colorAccent"
+                        android:padding="20dp"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageButton
+                        android:id="@+id/ibAbrirGoogleMaps"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_map"
+                        android:tint="@color/colorAccent"
+                        android:padding="20dp"/>
+
+                    <ImageButton
+                        android:id="@+id/ibAbrirStreetView"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_streetview"
+                        android:tint="@color/colorAccent"
+                        android:padding="20dp"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageButton
+                        android:id="@+id/ibAbrirPaginaWeb"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_web"
+                        android:tint="@color/colorAccent"
+                        android:padding="20dp"/>
+
+                    <ImageButton
+                        android:id="@+id/ibAbrirBuscador"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_search"
+                        android:tint="@color/colorAccent"
+                        android:padding="20dp"/>
+                </TableRow>
+
+                <TableRow>
+                    <ImageButton
+                        android:id="@+id/ibImagenCamara"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_camera"
+                        android:tint="@color/colorAccent"
+                        android:padding="20dp"/>
+                    <ImageButton
+                        android:id="@+id/ibImagenGaleria"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_gallery"
+                        android:tint="@color/colorAccent"
+                        android:padding="20dp"/>
+                </TableRow>
+
+                <TableRow>
+                    <ImageButton
+                        android:id="@+id/ibCompartirTexto"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_share_text"
+                        android:tint="@color/colorAccent"
+                        android:padding="20dp"/>
+                    <ImageButton
+                        android:id="@+id/ibCompartirImagen"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_share_image"
+                        android:tint="@color/colorAccent"
+                        android:padding="20dp"/>
+                </TableRow>
+                <TableRow>
+                    <ImageButton
+                        android:id="@+id/ibEnviarEmail"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_email"
+                        android:tint="@color/colorAccent"
+                        android:padding="20dp" />
+                    <ImageButton
+                        android:id="@+id/ibAsignarAlarma"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_access_alarm"
+                        android:tint="@color/colorAccent"
+                        android:padding="20dp"/>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

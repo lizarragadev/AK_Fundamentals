@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dato 1 que llega del botón ENVIAR DATOS:"
+        android:gravity="center_horizontal"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:id="@+id/tvTextoUno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginBottom="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dato 2 que llega del botón ENVIAR DATOS:"
+        android:gravity="center_horizontal"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/tvTextoDos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dato que llega del botón DEVOLVER DATOS:"
+        android:gravity="center_horizontal"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <EditText
+            android:id="@+id/etCajaTexto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.5"
+            android:backgroundTint="#FFF"
+            android:textColorHint="#FFF"
+            android:textColor="#FFF"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btnRespuesta"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Respuesta"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>
