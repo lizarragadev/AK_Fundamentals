@@ -11,7 +11,21 @@ class SegundaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_segunda)
-        
 
+        val bundle = intent.extras
+
+        if(bundle != null) {
+            tvTextoUno.text = bundle.getString("valor1", "No llega dato")
+            tvTextoDos.text = bundle.getInt("valor2", 0).toString()
+            etCajaTexto.setText(bundle.getString("valor3", "No llega dato"))
+        }
+
+        btnRespuesta.setOnClickListener {
+            val intent = Intent().apply {
+                putExtra("respuesta", etCajaTexto.text.toString())
+            }
+            setResult(Activity.RESULT_OK, intent)
+            finish()
+        }
     }
 }
