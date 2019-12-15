@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <corners
+                android:radius="200dp" />
+            <solid
+                android:color="@color/colorAccentDark"/>
+            <stroke
+                android:color="@color/colorBtnTexto"
+                android:width="7dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners
+                android:radius="200dp" />
+            <solid
+                android:color="@color/colorAccent"/>
+            <stroke
+                android:color="@color/colorBtnTexto"
+                android:width="5dp"/>
+        </shape>
+    </item>
+</selector>

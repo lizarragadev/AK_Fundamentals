@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimary">
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="INICIAR"
+        android:background="@drawable/iniciar_juego"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorBtnTexto"
+        android:textSize="30sp"
+        android:padding="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Cuánto sabes de las banderas del mundo?"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorBtnTexto"
+        android:textSize="20sp"
+        android:padding="50dp"
+        android:textStyle="italic"/>
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opciones">
+        <item>Japón,China,Australia</item>
+        <item>Francia,Suecia,Holanda</item>
+        <item>Camerún,Portugal,Italia</item>
+        <item>Italia,Paraguay,Rusia</item>
+        <item>Brasil,Cuba,España</item>
+        <item>Suiza,Finlandia,Inglaterra</item>
+        <item>Bélgica,Rumania,Ucrania</item>
+        <item>Grecia,Israel,Australia</item>
+        <item>Uruguay,Grecia,Costa Rica</item>
+        <item>Suiza,Finlandia,Inglaterra</item>
+        <item>Costa Rica,Australia,Rusia</item>
+        <item>China,Hong Kong,Turquía</item>
+        <item>Austria,Canadá,Perú</item>
+        <item>Ecuador,Brasil,Corea del Sur</item>
+        <item>Argentina,Israel,Singapur</item>
+    </string-array>
+
+    <integer-array name="imagenes">
+        <item>@drawable/image001</item>
+        <item>@drawable/image002</item>
+        <item>@drawable/image003</item>
+        <item>@drawable/image004</item>
+        <item>@drawable/image005</item>
+        <item>@drawable/image006</item>
+        <item>@drawable/image007</item>
+        <item>@drawable/image008</item>
+        <item>@drawable/image009</item>
+        <item>@drawable/image010</item>
+        <item>@drawable/image011</item>
+        <item>@drawable/image012</item>
+        <item>@drawable/image013</item>
+        <item>@drawable/image014</item>
+        <item>@drawable/image015</item>
+    </integer-array>
+
+    <string-array name="respuestas">
+        <item>F48D221208BF22D3DE26027BFA951484</item>
+        <item>2542DE4F4E93201D6EDD148224B26AFF</item>
+        <item>EA71B362E3EA9969DB085ABFCCDEB10D</item>
+        <item>712BBB75ED881CBEB625880047263DF5</item>
+        <item>F13D2458F0FDC34FA96621EA44C46663</item>
+        <item>E86B31047139AC0AD1AA12BBFB2BFA3A</item>
+        <item>AFF826D8953256B8BC301FAD98741816</item>
+        <item>5A548C2F5875F10BF5614B7C258876CF</item>
+        <item>2EEA9DAB72B1F2A26A6C4F2AB7D1D7CB</item>
+        <item>1638EC44608BA143540914D262300298</item>
+        <item>5882B568D8A010EF48A6896F53B6EDDB</item>
+        <item>AE54A5C026F31ADA088992587D92CB3A</item>
+        <item>445D337B5CD5DE476F99333DF6B0C2A7</item>
+        <item>AA43BECF0D21463BE7540BF3B40BF243</item>
+        <item>3536BE57CE0713954E454AE6C53EC023</item>
+    </string-array>
+
+</resources>
