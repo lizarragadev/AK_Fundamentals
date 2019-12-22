@@ -42,11 +42,98 @@ class MainActivity : AppCompatActivity() {
                 }
             } else {
                 btnSiguiente.text = "VER RESULTADOS"
-
+                calcularResultado(lista)
             }
         }
 
+        tsUno.setOnClickListener {
+            opcionSeleccionada(0)
+        }
 
+        tsDos.setOnClickListener {
+            opcionSeleccionada(1)
+        }
+
+        tsTres.setOnClickListener {
+            opcionSeleccionada(2)
+        }
+
+    }
+
+    fun calcularResultado(lis: MutableList<Pais>) {
+        var correctos = 0
+        lis. forEach {
+            if(it.estado)
+                correctos++
+        }
+        val intent = Intent(this, ResultadoActivity::class.java)
+        intent.putExtra("correctos", correctos)
+        intent.putExtra("incorrectos", lista.size - correctos)
+        startActivity(intent)
+        finish()
+    }
+
+    fun opcionSeleccionada(pos: Int) {
+        lista[posicion].seleccionado = pos
+        tsUno.isEnabled = false
+        tsDos.isEnabled = false
+        tsTres.isEnabled = false
+
+        if(lista[posicion].respuesta == lista[posicion].seleccionado) {
+            //Ingresa en caso que la respuesta sea correcta.
+            lista[posicion].estado = true
+            when(pos) {
+                0 -> {
+                    tsUno.background = ContextCompat.getDrawable(this, R.drawable.correcto)
+                    tsDos.background = ContextCompat.getDrawable(this, R.drawable.incorrecto_hide)
+                    tsTres.background = ContextCompat.getDrawable(this, R.drawable.incorrecto_hide)
+                }
+                1 -> {
+                    tsDos.background = ContextCompat.getDrawable(this, R.drawable.correcto)
+                    tsUno.background = ContextCompat.getDrawable(this, R.drawable.incorrecto_hide)
+                    tsTres.background = ContextCompat.getDrawable(this, R.drawable.incorrecto_hide)
+                }
+                2 -> {
+                    tsTres.background = ContextCompat.getDrawable(this, R.drawable.correcto)
+                    tsUno.background = ContextCompat.getDrawable(this, R.drawable.incorrecto_hide)
+                    tsDos.background = ContextCompat.getDrawable(this, R.drawable.incorrecto_hide)
+                }
+            }
+        } else {
+            // Ingresa en caso que la respuesta sea incorrecta.
+            when(pos) {
+                0 -> {
+                    tsUno.background = ContextCompat.getDrawable(this, R.drawable.incorrecto)
+                    if(lista[posicion].respuesta == 1) {
+                        tsDos.background = ContextCompat.getDrawable(this, R.drawable.correcto_hide)
+                        tsTres.background = ContextCompat.getDrawable(this, R.drawable.incorrecto_hide)
+                    } else {
+                        tsDos.background = ContextCompat.getDrawable(this, R.drawable.incorrecto_hide)
+                        tsTres.background = ContextCompat.getDrawable(this, R.drawable.correcto_hide)
+                    }
+                }
+                1 -> {
+                    tsDos.background = ContextCompat.getDrawable(this, R.drawable.incorrecto)
+                    if (lista[posicion].respuesta == 0) {
+                        tsUno.background = ContextCompat.getDrawable(this, R.drawable.correcto_hide)
+                        tsTres.background = ContextCompat.getDrawable(this, R.drawable.incorrecto_hide)
+                    } else {
+                        tsUno.background = ContextCompat.getDrawable(this, R.drawable.incorrecto_hide)
+                        tsTres.background = ContextCompat.getDrawable(this, R.drawable.correcto_hide)
+                    }
+                }
+                2 -> {
+                    tsTres.background = ContextCompat.getDrawable(this, R.drawable.incorrecto)
+                    if (lista[posicion].respuesta == 0) {
+                        tsUno.background = ContextCompat.getDrawable(this, R.drawable.correcto_hide)
+                        tsDos.background = ContextCompat.getDrawable(this, R.drawable.incorrecto_hide)
+                    } else {
+                        tsUno.background = ContextCompat.getDrawable(this, R.drawable.incorrecto_hide)
+                        tsDos.background = ContextCompat.getDrawable(this, R.drawable.correcto_hide)
+                    }
+                }
+            }
+        }
 
     }
 
