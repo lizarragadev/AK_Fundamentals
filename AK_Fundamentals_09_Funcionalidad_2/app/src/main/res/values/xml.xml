@@ -36,22 +36,21 @@
         <item>@drawable/image015</item>
     </integer-array>
 
-    <string-array name="respuestas">
-        <item>F48D221208BF22D3DE26027BFA951484</item>
-        <item>2542DE4F4E93201D6EDD148224B26AFF</item>
-        <item>EA71B362E3EA9969DB085ABFCCDEB10D</item>
-        <item>712BBB75ED881CBEB625880047263DF5</item>
-        <item>F13D2458F0FDC34FA96621EA44C46663</item>
-        <item>E86B31047139AC0AD1AA12BBFB2BFA3A</item>
-        <item>AFF826D8953256B8BC301FAD98741816</item>
-        <item>5A548C2F5875F10BF5614B7C258876CF</item>
-        <item>2EEA9DAB72B1F2A26A6C4F2AB7D1D7CB</item>
-        <item>1638EC44608BA143540914D262300298</item>
-        <item>5882B568D8A010EF48A6896F53B6EDDB</item>
-        <item>AE54A5C026F31ADA088992587D92CB3A</item>
-        <item>445D337B5CD5DE476F99333DF6B0C2A7</item>
-        <item>AA43BECF0D21463BE7540BF3B40BF243</item>
-        <item>3536BE57CE0713954E454AE6C53EC023</item>
-    </string-array>
-
+    <integer-array name="respuestas">
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
 </resources>

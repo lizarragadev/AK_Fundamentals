@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Trivia</string>
+
+    <string name="tvResultadoTitulo">Resultados</string>
+    <string name="tvResultadoCantidadPreguntas">Cantidad preguntas</string>
+    <string name="tvResultadoCorrectas">Correctas</string>
+    <string name="tvResultadoIncorrectas">Incorrectas</string>
+    <string name="btnResultadoAceptar">ACEPTAR</string>
 </resources>

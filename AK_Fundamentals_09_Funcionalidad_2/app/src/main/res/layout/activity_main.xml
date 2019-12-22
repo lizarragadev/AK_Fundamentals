@@ -33,6 +33,11 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp">
 
+        <ImageSwitcher
+            android:id="@+id/isImagen"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"/>
 
     </RelativeLayout>
 
@@ -47,7 +52,44 @@
         android:paddingTop="20dp"
         android:paddingBottom="20dp">
 
+        <TextSwitcher
+            android:id="@+id/tsUno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/btnPaddingLaterales"
+            android:paddingRight="@dimen/btnPaddingLaterales"
+            android:paddingTop="@dimen/btnPaddingArribaAbajo"
+            android:paddingBottom="@dimen/btnPaddingArribaAbajo"
+            android:layout_marginRight="@dimen/btnMarginLaterales"
+            android:layout_marginLeft="@dimen/btnMarginLaterales"
+            android:layout_marginTop="@dimen/btnMarginArribaAbajo"
+            android:layout_marginBottom="@dimen/btnMarginArribaAbajo"/>
 
+        <TextSwitcher
+            android:id="@+id/tsDos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/btnPaddingLaterales"
+            android:paddingRight="@dimen/btnPaddingLaterales"
+            android:paddingTop="@dimen/btnPaddingArribaAbajo"
+            android:paddingBottom="@dimen/btnPaddingArribaAbajo"
+            android:layout_marginRight="@dimen/btnMarginLaterales"
+            android:layout_marginLeft="@dimen/btnMarginLaterales"
+            android:layout_marginTop="@dimen/btnMarginArribaAbajo"
+            android:layout_marginBottom="@dimen/btnMarginArribaAbajo"/>
+
+        <TextSwitcher
+            android:id="@+id/tsTres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/btnPaddingLaterales"
+            android:paddingRight="@dimen/btnPaddingLaterales"
+            android:paddingTop="@dimen/btnPaddingArribaAbajo"
+            android:paddingBottom="@dimen/btnPaddingArribaAbajo"
+            android:layout_marginRight="@dimen/btnMarginLaterales"
+            android:layout_marginLeft="@dimen/btnMarginLaterales"
+            android:layout_marginTop="@dimen/btnMarginArribaAbajo"
+            android:layout_marginBottom="@dimen/btnMarginArribaAbajo"/>
 
     </LinearLayout>
 
