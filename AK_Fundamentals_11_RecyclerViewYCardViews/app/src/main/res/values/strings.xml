@@ -58,7 +58,7 @@
 
     <string name="main_pk1_subtitulo">Poison - Grass</string>
     <string name="main_pk2_subtitulo">Poison - Grass</string>
-    <string name="main_pk3_subtitulo">Poison - Grass</string>
+    <string name="main_pk3_subtitulo">Poison - Grass Poison - Grass</string>
     <string name="main_pk4_subtitulo">Fire</string>
     <string name="main_pk5_subtitulo">Fire</string>
     <string name="main_pk6_subtitulo">Flying - Fire</string>
@@ -67,7 +67,7 @@
     <string name="main_pk9_subtitulo">Water</string>
     <string name="main_pk10_subtitulo">Bug</string>
     <string name="main_pk11_subtitulo">Bug</string>
-    <string name="main_pk12_subtitulo">Flying - Bug</string>
+    <string name="main_pk12_subtitulo">Flying - Bug Flying - Bug Flying - Bug</string>
     <string name="main_pk13_subtitulo">Poison - Bug</string>
     <string name="main_pk14_subtitulo">Poison - Bug</string>
     <string name="main_pk15_subtitulo">Posion Bug</string>
@@ -75,7 +75,7 @@
     <string name="main_pk17_subtitulo">Flying - Normal</string>
     <string name="main_pk18_subtitulo">Flying - Normal</string>
     <string name="main_pk19_subtitulo">Normal</string>
-    <string name="main_pk20_subtitulo">Normal</string>
+    <string name="main_pk20_subtitulo">Normal Normalv Normal Normal</string>
     <string name="main_pk21_subtitulo">Flying - Normal</string>
     <string name="main_pk22_subtitulo">Flying - Normal</string>
     <string name="main_pk23_subtitulo">Poison</string>
@@ -94,7 +94,7 @@
     <string name="main_pk36_subtitulo">Fairy</string>
     <string name="main_pk37_subtitulo">Fire</string>
     <string name="main_pk38_subtitulo">Fire</string>
-    <string name="main_pk39_subtitulo">Fairy - Normal</string>
+    <string name="main_pk39_subtitulo">Fairy - Normal Fairy - Normal Fairy - Normal Fairy - Normal</string>
     <string name="main_pk40_subtitulo">Fairy - Normal</string>
     <string name="main_pk41_subtitulo">Flying - Poison</string>
     <string name="main_pk42_subtitulo">Flying - Poison</string>
